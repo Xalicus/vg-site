@@ -1,0 +1,448 @@
+/* Kevin's Style sheet */
+
+/* CSS code for the background color of the page. */
+body {
+    background-color: #b3adee;
+}
+
+
+/* NavBar code goes here. Sorry not many comments for the navBar code this week. */
+nav.gameNav {
+	width: 90%;
+	margin: auto;
+	border: solid 4px #AB006B;
+	text-align: center;
+	background-color: #8F005A;
+}
+
+.gameNav ul {
+	margin: 0;
+	padding: 0;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.gameNav li {
+	list-style-type: none;
+}
+
+nav.gameNav a {
+	color: #BDF1BD;
+	text-decoration: none;
+	display: block;
+	width: 90px;
+	padding: 8px 0;
+	border: 2px solid transparent;
+}
+
+nav.gameNav a:hover {
+	background-color: #BDF1BD;
+	color: #8F005A;
+	border: 2px solid #7009d2;
+	border-radius: 30%;
+}
+
+
+/* CSS code for the h1 tag, making it center aligned, font color purple with a normal weight and sans-serif font. */
+h1 {
+    text-align: center;
+    color: #7009d2;
+    text-transform: uppercase;
+    font-family: "Source Sans Pro", sans-serif;
+    font-weight: normal;
+    border: 8px double #7009d2;
+    border-radius: 25%;
+}
+
+/* CSS code for the h2 tag, making the background color violet, and a font of Papyrus. >.> */
+h2 {
+    background-color: #1dc733;
+    font-family: Papyrus, "Brush Script MT", Monaco;
+}
+
+/* CSS code for the p tag, making the text justified until the last line, then centered, with a color of purple, and background color of pale green. */
+p {
+    text-align: justify;
+    text-align-last: center;
+    background-color: #BDF1BD;
+    color: #7009d2;
+    text-indent: 5%;
+}
+
+/* CSS code to change the colors of links depending on their state. */
+a:link {
+    color: blue;
+}
+a:visited {
+    color: #8F005A;
+}
+a:hover {
+    color: violet;
+    background-color: #7009d2;
+} 
+a:active {
+    color: yellow;
+}
+
+/* paragragh tag with class of indent, indenting the text by 10%. */
+.indent {
+    text-indent: 10%;
+}
+
+
+/* Kevin's Image Style sheet: Now in the original stylesheet file. */
+
+/* Floating the first image to the right. */
+.xal-og { 
+    float: right;
+    margin-left: 15px;
+    border: 6px double #057521;
+    border-radius: 35% 35% 0 0;
+}
+
+/* Floating the second image to the left */
+.xal-flip { 
+    float: left;
+    margin-right: 15px;
+    border: 4px dotted magenta;
+    border-radius: 60% 15%;
+}
+
+/* Floating the third image to the right. */
+.xal-stare { 
+    float: right;
+    margin-left: 15px;
+    border: 8px dashed red;
+    border-radius: 50%;
+}
+
+/* My responsive image at the bottom of the page. */
+.xalbig {
+    max-width: 100%;
+    height: auto;
+}
+
+
+/* CSS code for the unordered list of Warframes. */
+.warframeUL {
+    max-width: 55%;
+	margin: auto;
+	color: #BDF1BD;
+    background-color: #8F005A;
+    list-style-type: square;
+    text-align: center;
+}
+
+/* CSS code to change the text color and background colors when you hover over the list items. */
+.warframeUL li:hover {
+    color: #7009d2;
+    background-color: #BDF1BD;
+    font-weight: bold;
+}
+
+/* Warframe Table CSS code. */
+
+
+
+/* H2 code for the table below it. */
+.huntH2 {
+	max-width: 55%;
+	margin: 5px auto;
+	border: 1px solid green;
+	font-family: Papyrus, "Brush Script MT", Monaco;
+	text-align: center;
+}
+
+/* Table class code here. */
+.hunters, .hunters td {
+	border: 2px solid darkgreen;
+	margin: 10px;
+	padding: 5px;
+	font-family: Papyrus, "Brush Script MT", Monaco;
+	text-align: center;
+}
+
+.hunters {
+	margin: auto;
+	background-color: #BDF1BD;
+}
+
+.hunters thead {
+	color: purple;
+	font-size: 1.1rem;
+}
+
+.hunters p {
+	max-width: 100%;
+	padding: 5px 0px;
+	background-color: transparent;
+	color: black;
+	text-align: center;
+	font-size: 1.1rem;
+    text-indent: 0;
+}
+
+.hunters td:hover {
+	background-color: gold;
+	border: 2px dashed magenta;
+}
+
+.hunters .rieveImg {
+	pointer-events: none;
+	border: none;
+}
+
+.hunters tfoot td, .hunters tfoot td:hover {
+	border: none;
+	background-color: transparent;
+}
+
+.hunters img {
+    max-width: 100%;
+    height: auto;
+}
+
+.hideHunt {
+	display: none;
+}
+
+.hunters a:link, .hunters a:visited {
+	color: darkgreen;
+}
+.hunters a:hover {
+	color: magenta;
+	background-color: transparent;
+} 
+.hunters a:active {
+	color: yellow;
+}
+
+
+/* CSS code of the classes from the zeldaGames div in a CSS Grid Area. */
+.crest { grid-area: crest; }
+.loz { grid-area: loz; }
+.botw { grid-area: botw; }
+.zelda { grid-area: zelda; }
+.lozla { grid-area: lozla; }
+.totk { grid-area: totk; }
+.eow { grid-area: eow; }
+.lozFooter { grid-area: lozFooter; /*background-image: url(images/zeldaTotkLogo.png);*/ }
+
+/* CSS Code applying to the zeldaGames div for mobile screens by default. */
+.zeldaGames {
+    max-width: 800px;
+    margin: 0 auto;
+    display: grid; /* This will display the div in a grid format. */
+    grid-template-columns: 49% 50%; /* Creates two columns in the mobile grid. */
+	grid-template-rows: auto auto auto auto auto auto; /* Changed all six rows to auto height. */
+    /*grid-template-rows: 0.5fr 0.5fr 1fr 1fr 1fr 0.5fr;*/ /* Creates six rows with three of them being 1 fractional unit (1fr) and the first two and last one being 0.5fr. */
+    grid-template-areas: /* Uses a graphical way of showing the mobile grid in code. Which is nice. */
+        'crest crest'
+        'loz loz'
+        'botw totk'
+        'zelda lozla'
+        'zelda eow'
+        'lozFooter lozFooter';
+		
+    gap: 5px; /* Adds a 5px gutter between the content in the mobile grid. */
+    background-color: #0b0; /* Sets the background color to a medium green. */
+    padding: 5px; /* Adds 5px of padding around the whole mobile grid. */
+}
+
+/* CSS Code applying to each child div in the .zeldaGames parent div. */
+.zeldaGames div {
+    background-color: #BDF1BD; /* Each child div has a lighter green background. */
+    text-align: center; /* Centering all the text in the child divs. */
+    padding: 20px 5px;
+    font-size: 1.2rem;
+    font-family: Papyrus, "Brush Script MT", Monaco;
+}
+
+.zeldaGames h2, h3 {
+    background-color: transparent;
+    font-family: Papyrus, "Brush Script MT", Monaco;
+    color: #1bac2f;
+    font-size: 1.7rem;
+}
+
+.zeldaGames h3 {
+    font-size: 1.5rem; /* I wanted the h3 to be smaller but with the other properties above. */
+}
+
+.zeldaGames p {
+	max-width: 100%;
+	padding: 5px;
+	background-color: transparent; /* Taking the background out from the previous content. */
+	color: #1385a1; /* Making the text in the divs a darker green color. */
+    text-indent: 0; /* Taking out the indents for the paragraphs. */
+}
+
+.zeldaGames img { /* Making these images responsive, cause it's "responsible" to do. */
+    max-width: 100%;
+    height: auto;
+}
+
+
+/* Media Query for Larger Screens. */
+@media (min-width: 992px) {
+/* CSS Code applying to the zeldaGames div for larger screens now. */
+.zeldaGames {
+    max-width: 1200px;
+    grid-template-columns: 33% 32% 33%; /* Creates three columns in the grid. */
+    grid-template-rows: auto 1fr 1fr auto; /* Creates four rows with two of them being 1 fractional unit (1fr) and the first and last ones being auto height. */
+    grid-template-areas: /* Uses a graphical way of showing the larger grid in code. Which is nice. */
+        'crest loz loz'
+        'botw zelda lozla'
+        'totk zelda eow'
+        'lozFooter lozFooter lozFooter';
+		
+    gap: 10px; /* Adds a 10px gutter between the content in the grid. */
+    padding: 10px; /* Adds 10px of padding around the whole grid. */
+}
+
+/* End media query for larger screens. */
+}
+
+
+/* CSS code for the ordered and unordered list. */
+.lozHHdiv {
+	max-width: 60%;
+	margin: 5px auto;
+	border: 1px dashed green;
+	background-color: #BDF1BD;
+	text-align: left;
+}
+
+.lozHHdiv h3{
+	max-width: 85%;
+	margin: 5px auto;
+	border: 1px solid green;
+	font-family: Papyrus, "Brush Script MT", Monaco;
+	text-align: center;
+}
+
+
+.lozHHOL, .lozHHOL li {
+	color: red;
+    background-color: transparent;
+    list-style-type: upper-alpha;
+    /*text-align: left;*/
+}
+
+.lozHHUL, .lozHHUL li {
+	color: blue;
+    background-color: transparent;
+    list-style-type: '-';
+    text-align: left;
+}
+
+.lozHHOL li:hover {
+    color: magenta;
+    background-color: transparent;
+    font-weight: bold;
+}
+
+
+/* Form code goes here. Sorry not many comments for the form code this week. */
+form.gameForm {
+	max-width: 600px;
+	margin: 0 auto;
+	/*border: dashed 3px #AB006B;*/
+	text-align: left;
+	background-color: #BDF1BD;
+}
+
+fieldset.interFS {
+	width: 90%;
+	margin: 10px auto;
+}
+
+.gameForm legend {
+	text-align: center;
+}
+
+.interFS label {
+    margin: 2;
+    text-align: left;
+	justify-content: left;
+}
+
+.formBtn {
+	margin: 5px auto;
+	padding: 3px 10px;
+	background-color: #AB006B;
+	color: #BDF1BD;
+}
+
+
+/* Added code for the embedded YouTube video I made for another class. */
+
+.saturnVidText p {
+	max-width: 100%;
+	padding: 5px;
+	background-color: #BDF1BD;
+	color: #1385a1;
+    text-indent: 0;
+	text-align: center;
+	font-size: 1.2rem;
+    font-family: Papyrus, "Brush Script MT", Monaco;
+	font-weight: bold;
+}
+
+.saturnVid {
+	position: relative;
+	width: 100%;
+	padding-bottom: 56.25%;
+	height: 0;
+}
+
+.saturnVid iframe {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+}
+
+
+/* Code for the JavaScript button at the bottom of the page. */
+
+.jsBtn {
+	margin: 15px auto;
+	max-width: 50%;
+	text-align: center;
+	background-color: #BDF1BD;
+}
+
+.jsBtn button{
+	margin: 15px auto;
+	padding: 5px 15px;
+	background-color: #AB006B;
+	color: #BDF1BD;
+}
+
+/* Alternative version of the button. */
+
+.jsBtnAlt {
+	display: flex;
+	justify-content: center;
+	margin: 15px auto;
+	max-width: 50%;
+	background-color: #BDF1BD;
+}
+
+.jsBtnAlt input, .jsBtnAlt button{
+	display: inline-block;
+	margin-top: 10px;
+	margin-bottom: 10px;
+	padding: 10px;
+	background-color: #AB006B;
+	color: #BDF1BD;
+}
+
+.jsBtnAlt input {
+	background-color: #BDF1BD;
+	color: #AB006B;
+	width: 250px;
+}

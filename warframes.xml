@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<warframes>
+	<warframe>
+		<photo><img src='https://www-static.warframe.com/images/warframes/thumbnails/sarynprime.png'></photo>
+		<wfname>Saryn Prime</wfname>
+		<ability1>Spores</ability1>
+		<ability2>Molt</ability2>
+		<ability3>Toxic Lash</ability3>
+		<ability4>Miasma</ability4>
+	</warframe>
+	<warframe>
+		<photo><img src='https://www-static.warframe.com/images/warframes/thumbnails/wispprime.png'></photo>
+		<wfname>Wisp Prime</wfname>
+		<ability1>Reservoirs</ability1>
+		<ability2>Wil-O-Wisp</ability2>
+		<ability3>Breach Surge</ability3>
+		<ability4>Sol Gate</ability4>
+	</warframe>
+	<warframe>
+		<photo><img src='https://www-static.warframe.com/images/warframes/thumbnails/khoraprime.png'></photo>
+		<wfname>Khora Prime</wfname>
+		<ability1>Whipclaw</ability1>
+		<ability2>Ensnare</ability2>
+		<ability3>Venari</ability3>
+		<ability4>Strangledome</ability4>
+	</warframe>
+	<warframe>
+		<photo><img src='https://www-static.warframe.com/images/warframes/thumbnails/ivaraprime.png'></photo>
+		<wfname>Ivara Prime</wfname>
+		<ability1>Quiver</ability1>
+		<ability2>Navigator</ability2>
+		<ability3>Prowl</ability3>
+		<ability4>Artemis Bow</ability4>
+	</warframe>
+	<warframe>
+		<photo><img src='https://www-static.warframe.com/images/warframes/thumbnails/emberprime.png'></photo>
+		<wfname>Ember Prime</wfname>
+		<ability1>Fireball</ability1>
+		<ability2>Immolation</ability2>
+		<ability3>Fire Blast</ability3>
+		<ability4>Inferno</ability4>
+	</warframe>
+</warframes>

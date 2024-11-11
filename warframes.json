@@ -1,0 +1,42 @@
+[
+	{
+		"photo": "<img src='https://www-static.warframe.com/images/warframes/thumbnails/sarynprime.png'>",
+		"wfname": "Saryn Prime",
+		"ability1": "Spores",
+		"ability2": "Molt",
+		"ability3": "Toxic Lash",
+		"ability4": "Miasma"
+	},
+	{
+		"photo": "<img src='https://www-static.warframe.com/images/warframes/thumbnails/wispprime.png'>",
+		"wfname": "Wisp Prime",
+		"ability1": "Reservoirs",
+		"ability2": "Wil-O-Wisp",
+		"ability3": "Breach Surge",
+		"ability4": "Sol Gate"
+	},
+	{
+		"photo": "<img src='https://www-static.warframe.com/images/warframes/thumbnails/khoraprime.png'>",
+		"wfname": "Khora Prime",
+		"ability1": "Whipclaw",
+		"ability2": "Ensnare",
+		"ability3": "Venari",
+		"ability4": "Strangledome"
+	},
+	{
+		"photo": "<img src='https://www-static.warframe.com/images/warframes/thumbnails/ivaraprime.png'>",
+		"wfname": "Ivara Prime",
+		"ability1": "Quiver",
+		"ability2": "Navigator",
+		"ability3": "Prowl",
+		"ability4": "Artemis Bow"
+	},
+	{
+		"photo": "<img src='https://www-static.warframe.com/images/warframes/thumbnails/emberprime.png'>",
+		"wfname": "Ember Prime",
+		"ability1": "Fireball",
+		"ability2": "Immolation",
+		"ability3": "Fire Blast",
+		"ability4": "Inferno"
+	}
+]

@@ -1,0 +1,313 @@
+<!DOCTYPE html>
+
+<html lang="en-us">
+    <head>
+        <meta charset="utf-8">
+
+        <title>Kevin's Video Game Horde</title>
+
+        <!-- Load external CSS styles -->
+        <link rel="stylesheet" href="style.css">
+
+        <!-- Loading the image style sheet here. Added to the other stylesheet above instead. -->
+        <!-- <link rel="stylesheet" href="imageStyle.css"> -->
+
+        <!-- This is the internal CSS code for this page only. Moved this to the external CSS file. -->
+        <style>
+            
+        </style>
+		
+		<!-- Load external JavaScript -->
+        <script src="script.js"></script>
+        <script src="wffetch.js"></script>
+
+    </head>
+
+    <!-- Inline CSS code to change the background color to orange for some reason. I removed it and put the code in the external css file, also changed the color to something more suiting. -->
+    <body>
+
+		<nav class="gameNav">
+			<ul>
+				<li><a href="index.html">Home</a></li>
+				<li><a href="http://warframe.com">Warframe</a></li>
+				<li><a href="#">Star Wars: Hunters</a></li>
+				<li><a href="#">Starfield</a></li>
+				<li><a href="#">Doom Eternal</a></li>
+				<li><a href="#">Horizon Zero Dawn</a></li>
+				<li><a href="#">Skyrim</a></li>
+				<li><a href="http://zelda.com">Legend of Zelda Series</a></li>
+			</ul>
+		</nav>
+		
+        <h1>Video Games I like to play in my spare time</h1>
+
+        <!-- I have so many games in my backlog, it's insane. -->
+
+        <!-- Original image at a width of 200px and rounded top corners. -->
+        <img class="xal-og" src="images/xalAviBustOG.jpg" alt="My avatar from the Final Fantasy 14 MMORPG." width="200">
+
+        <h2>Warframe (PC, PS5 and Switch)</h2>
+
+            <!-- Warframe is one of my most favorite games right now, but I go off and on playing it. -->
+            <p class="indent">Warframe is a Massively Multiplayer Online Third Person Shooter developed by Digital Extremes (DE). Warframe has actually been around for 11 years now, DE just celebrated their 11th anniversary at TennoCon 2024 in the beginning of August. I have been playing this game lately on my PC, or on the Nintendo Switch when I'm not at my desk. I love playing it when I want some down time to just relax while shooting or slicing enemies. So far, they have created 57 “Frames” that you can control with a character called a Tenno, with 43 of them also having what they call a Prime version, with flashy gold pieces, which is usually a much better frame to use in the missions. We are the Tenno in the game, controlling the Frames in battles or missions. They have a rich storyline that has been progressing for years now, and they are adding a new free expansion to the game that takes you back to when the Tenno and Warframes did not exist yet, which DE is calling Warframe 1999. Here are some of my favorite Warframes I choose to play with:</p>
+
+            <!-- This is an unordered list. -->
+            <ul class="warframeUL">
+                <li>***** Saryn Prime *****</li>
+                <li>***** Wisp Prime *****</li>
+                <li>***** Khora Prime *****</li>
+                <li>***** Ivara Prime *****</li>
+                <li>***** Ember Prime *****</li>
+            </ul>
+        
+        <!-- A link to the warframe website showing off what the warframes look like. -->
+        <a href="https://www.warframe.com/game/warframes" target="_blank">Here are what all of the Warframes look like.</a>
+		
+		<br>
+		
+		<div id="tableWF"></div>
+		
+		<br>
+		
+		<!-- I was going to put my video from another class here, but I couldn't get it smaller within a div and be responsive and not take up a huge amount of space either when it is smaller. -->
+		<!--<iframe class="saturnVid" width="560" height="315" src="https://www.youtube.com/embed/99-qyw4L-7s?si=5pp1BqdTz1q2t3Ht" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>-->
+		
+        <h2>Star Wars: Hunters (Mobile and Switch)</h2>
+
+            <p class="indent">Star Wars: Hunters is an off-shoot game developed by Natural Motion Games and published by Zynga. SW: Hunters pits four players against four other players online to win a match in multiple random arena levels. It’s my go-to game when chilling in between work and school lately. I can play Star Wars: Hunters on my phone, iPad or the Switch whenever I have wi-fi available. You can choose from many different types of Hunters, each with a different play style, weapons and abilities called Ultimates. There are currently 14 Hunters at this time, with a new one you can purchase each season, which lasts a few months. It basically plays like a Star Wars inspired OverWatch 2 game. I prefer playing damage dealers like Imara Vex, a bounty hunter, and Rieve, a dark side assassin. I have both of them already maxed out in level since I like playing as them so much. You can customize their costumes, weapon skins, victory poses and stickers to portray emotions during the matches.</p>
+		
+		<h2 class="huntH2">Star Wars Hunters' Characters I like to play</h2>
+		
+		<table class="hunters">
+			<thead>
+				<tr>
+					<th>Most Played Hunter:</th>
+					<th>Hunters Name:</th>
+					<th>Hunters Occupation:</th>
+					<th>Hunters Ultimate:</th>
+				</tr>
+			</thead>
+			<tbody>
+				<tr>
+					<td rowspan="3" class="rieveImg">
+						<img src="images/rieveDSA2.jpg" alt="Rieve a Dark Side Assassin." width="300">
+					</td>
+					<td><p>Rieve</p></td>
+					<td><p>Dark Side Assassin</p></td>
+					<td><p>Crushing Will</p></td>
+				</tr>
+				<tr>
+					<!--<td class="hideHunt"></td>-->
+					<td><p>Imara Vex</p></td>
+					<td><p>Unrelenting Bounty Hunter</p></td>
+					<td><p>Seeker Salvo</p></td>
+				</tr>
+				<tr>
+					<!--<td class="hideHunt"></td>-->
+					<td><p>Aran Tal</p></td>
+					<td><p>Mandalorian Vanguard</p></td>
+					<td><p>Fury of Clan Tal</p></td>
+				</tr>
+			</tbody>
+			<tfoot>
+				<tr>
+					<td colspan="4"><p><a href="https://starwarshunters.com/en-us" target="_blank">
+					<img src="https://starwarshunters.com/static/a8317497fc162ced7516b620f017c6ba/2868c/logo.avif" alt="Star Wars Hunters Logo" width="300"></a></p>
+						<p>©2024 <a href="http://starwarshunters.com/en-us" target="_blank">Star Wars Hunters.</a>
+						<br>Star Wars Hunters © & ™ 2024 Lucasfilm Ltd.
+						<br>All Rights Reserved. ©2024 NaturalMotion Games LTD. Nintendo Switch is a trademark of Nintendo.
+						<br>All other marks and trademarks are the property of their respective owners. All Rights Reserved.</p>
+					</td>
+					<!--<td class="hideHunt"><a href="https://starwarshunters.com/en-us" target="_blank">Star Wars Hunters</a></td>
+					<td class="hideHunt"></td>
+					<td class="hideHunt"></td>-->
+				</tr>
+			</tfoot>
+		</table>
+		
+		
+        <!-- Flipped image at a width of 250px and rounded like a football. -->
+        <img class="xal-flip" src="images/xalAviBustFlip.jpg" alt="My avatar from the Final Fantasy 14 MMORPG but smaller and flipped." width="250">
+
+        <h2>Starfield (PC)</h2>
+
+            <p>Starfield was the first brand new IP developed, in 25 years, by Bethesda Game Studios, which was released last year on September 6th, 2023. Many people compared it to “Skyrim in Space”, after the game director Todd Howard called it that when it was announced back in 2018. Starfield is an Action Role Playing Game, or ARPG, just like the other games Bethesda makes, like Fallout 4 and Elder Scrolls V: Skyrim. Also like those other games, you can switch between a first person and third person view while playing. It is really fun to go to different planets and find resources and the mysterious artifacts you need to finish the game. You can actually go to over 1000 planets, moons and space stations and many of the landscapes are procedurally generated. Unfortunately, I haven’t been able to actually play much of the game lately, as I just bought it recently on Steam. I last got to play Starfield when I previously played it through the Xbox Game Pass Ultimate subscription on my PC when it came out last year.</p>
+
+        <h2>Doom Eternal (PC)</h2>
+
+            <p>Doom Eternal is a great game that came out at just the right time back in 2020, right at the start of the pandemic of Covid-19, alongside Nintendo’s Animal Crossing: New Horizons. It was developed by id Software, and published by Bethesda Softworks on March 20th, 2020. Doom Eternal follows the Doom Slayer, fourteen years after the events of the Doom reboot from 2016, which I completed a few months ago myself. You play as the Doom Slayer, coming back to Earth after it’s ravaged by demons from Hell, you then rip and tear through them as you force your way to the big bosses to finish the game, and have lots of cut-scenes and flashbacks to watch in between missions. There is even a new Fortress of Doom, floating in space above Earth in Doom Eternal. I haven’t completed Doom Eternal since I finished Doom (2016) a few months ago, but I will finish it someday. This is actually the seventh Doom game in the main DOOM series. In fact, the original DOOM game from 1993, still has new levels being created for it, and was re-released as DOOM + DOOM II bundled together, with a bunch of extras and brand new levels. It just goes to show that classics like this never really die out.</p>
+
+        <!-- Cropped version of the image at a width of 300px and all corners rounded. -->
+        <img class="xal-stare" src="images/xalAviBustStare.jpg" alt="My avatar from the Final Fantasy 14 MMORPG staring into your soul." width="300">
+
+        <h2>Horizon Zero Dawn (PC and PS4)</h2>
+
+            <p>Horizon Zero Dawn is an action role-playing game that was developed by Guerilla Games and published by Sony Interactive Entertainment in 2017 for the Playstation 4, then released on PC in 2020. Horizon Zero Dawn follows a young hunter by the name of Aloy, who sets out to uncover her past while fighting off mechanical creatures in a post-apocalyptic, 31st century Earth. I had first played Horizon Zero Dawn on the PS4 back around the time it was released, or at some time after. I purchased the Steam version for PC a few years ago so I could use Nexus Mods to make it funner while playing. It’s really great using the Bow with different arrow types to strike at these robot animals that roam the world, all around you. Aloy also uses a techno spear that has one pointed end and the other end can be used to actually take control of the robots, getting stronger and allowing more types to be controlled as you play along the storyline. I still haven’t finished this game yet either, but I do plan to get on that once I’m done playing other games first, and not finishing them either yet. Horizon Zero Dawn is a great game, along with its sequel Horizon Forbidden West. There is also a Horizon VR game on the Playstation VR2 through the PS5, and a LEGO Horizon Adventures game coming out this year on multiple consoles and PC</p>
+
+        <h2>The Elder Scrolls V: Skyrim (PC)</h2>
+
+            <p>The Elder Scrolls V: Skyrim, which I will just be calling Skyrim, is an action role-playing game developed by Bethesda Game Studios in 2011 originally. Skyrim has been re-released as a Legendary Edition, a Special Edition and an Anniversary Edition since its original release throughout the years. I personally have bought many versions of Skyrim over the years, each one of them still as fun as the last time, as they add more features and quests to play through. When you start Skyrim, you play as a Dragonborn, who must choose sides between two warring factions, the Imperials and the Stormcloaks, led by Ulfric Stormcloak. Along the way, you find companions to help you, and other NPCs to give you information about the world. You can get married and adopt children in the game, and also decorate a house or five if you want to, all over the map of Skyrim. When I do play Skyrim, I’m usually using mods from Nexus Mods, which has like 1000’s of mods for any version of Skyrim available. Since this is the third action role-playing game on this list, it really must be my favorite genre of video games around, also adventure games, which are very similar anyways.</p>
+
+
+        <div class="zeldaGames">
+            <div class="crest"><img src="images/royalCrest.png" alt="The Royal Crest of the Hyrule Royal Family." width="400"> <br><h3>Hyrule Royal Family Crest</h3></div>
+            <div class="loz"><h2>The Legend of Zelda Games</h2>
+            <p>The Legend of Zelda, the first game of the series, was first released in Japan on February 21, 1986, on the Famicom Disk System. A cartridge version for the Nintendo Entertainment System, using battery-backed memory, was released in the United States on August 22, 1987, and in Europe on November 27, 1987. There are currently 20 mainline games in the series, with many spin-off happening throughout the years. Some of the latest releases are as follows:</p>
+            </div>
+            <div class="botw"><h3>Breath of the Wild</h3> <br> <img src="images/botwLinkBow300.png" alt="The character Link from the Legend of Zelda: Breath of the Wild." width="300"> <p>The Legend of Zelda: Breath of the Wild was released on March 3rd, 2017 for both the Nintendo Wii U and Switch consoles.</p> </div>
+            <div class="zelda"><h3>Princess Zelda</h3>
+			<img src="images/eowZeldaExplore300.png" alt="The character Zelda from the Legend of Zelda: Echoes of Wisdom." width="300">
+			<br>
+			<h3>Swordfighter Zelda</h3>
+			<img src="images/eowZeldaSF300.png" alt="The character Zelda from the Legend of Zelda: Echoes of Wisdom." width="300">
+			<br>
+			<h3>Swordfighter Link</h3>
+			<img src="images/eowLink300.png" alt="The character Link from the Legend of Zelda: Echoes of Wisdom." width="300">
+			</div>
+            <div class="lozla"><h3>Link's Awakening: HD Remake</h3> <br> <img src="images/laLink300.png" alt="The character Link from the Legend of Zelda: Link's Akwakening: HD Remake." width="300"> <p>The Legend of Zelda: Link's Awakening: HD Remake was released on September 20th, 2019 for the Nintendo Switch console. This is the only game in the series that had two remakes with added features in both.</p> </div>
+            <div class="totk"><h3>Tears of the Kingdom</h3> <br> <img src="images/totkLinkCrouch300.png" alt="The character Zelda from the Legend of Zelda: Tears of the Kingdom." width="300"> <p>The Legend of Zelda: Tears of the Kingdom was released on May 12th, 2023 for the Nintendo Switch console.</p> </div>
+            <div class="eow"><h3>Echoes of Wisdom</h3> <br> <img src="images/eowZeldaGown300.png" alt="The character Zelda from the Legend of Zelda: Echoes of Wisdom." width="300"> <p>The Legend of Zelda: Echoes of Wisdom was released on September 26th, 2024 for the Nintendo Switch console.</p> </div>
+            <div class="lozFooter">
+			<p><strong>All Mainline Zelda Games:</strong> The Legend of Zelda - NES 1986, 
+			Zelda II: The Adventure of Link - NES 1987, 
+			A Link to the Past - SNES 1991, 
+			Link's Awakening - GB 1993, 
+			Ocarina of Time - N64 1998, 
+			Link's Awakening DX - GBC 1998, 
+			Majora's Mask - N64 2000, 
+			Oracle of Seasons/Oracle of Ages - GBC 2001, 
+			Four Swords - GBA 2002, 
+			The Wind Waker - GCN 2002, 
+			Four Swords Adventures - GCN 2004, 
+			The Minish Cap - GBA 2004, 
+			Twilight Princess - GCN/Wii 2006, 
+			Phantom Hourglass - NDS 2007, 
+			Spirit Tracks - NDS 2009, 
+			Ocarina of Time 3D - 3DS 2011, 
+			Skyward Sword - Wii 2011, 
+			The Wind Waker HD - Wii U 2013, 
+			A Link Between Worlds - 3DS 2013, 
+			Majora's Mask 3D - 3DS 2015, 
+			Tri Force Heroes - 3DS 2015, 
+			Twilight Princess HD - Wii U 2016, 
+			Breath of the Wild - Wii U/Switch 2017, 
+			Link's Awakening HD Remake - Switch 2019, 
+			Skyward Sword HD - Switch 2021, 
+			Tears of the Kingdom - Switch 2023, 
+			Echoes of Wisdom - Switch 2024.</p>
+			<p><a href="https://zelda.nintendo.com/" target="_blank">The Legend of Zelda characters</a> and logos are Copyright © 2024 by Nintendo of America - All rights reserved</p>
+			</div>
+        </div>
+		
+		<div class="lozHHdiv">
+			<h3>Handheld Zelda Games</h3>
+			<ol class="lozHHOL">
+				<li>The Legend of Zelda: Link's Awakening, Multiple releases.
+					<ul class="lozHHUL">
+						<li>Released first on the GameBoy in 1993.</li>
+						<li>Re-released as Link's Awakening DX on the GameBoy Color in 1998.</li>
+						<li>Remade as Link's Awakening HD Remake on the Switch in 2019.</li>
+					</ul>
+				</li>
+				<li>The Legend of Zelda: Oracle of Seasons released on the GameBoy Color in 2001.</li>
+				<li>The Legend of Zelda: Oracle of Ages also released on the GameBoy Color in 2001.</li>
+				<li>The Legend of Zelda: Four Swords released together in the GameBoy Advance version of A Link to the Past in 2002.</li>
+				<li>The Legend of Zelda: The Minish Cap released on the GameBoy Advance in 2004.</li>
+				<li>The Legend of Zelda: Phantom Hourglass released on the Nintendo DS in 2007.</li>
+				<li>The Legend of Zelda: Spirit Tracks released on the Nintendo DS in 2009.</li>
+				<li>The Legend of Zelda: A Link Between Worlds released on the Nintendo 3DS in 2013.</li>
+				<li>The Legend of Zelda: Tri Force Heroes released on the Nintendo 3DS in 2015.</li>
+			</ol>
+		</div>
+		
+		<!-- Form code goes here -->
+		<form class="gameForm" method="post" action="https://gophp.w3spaces.com/contactA.php"><!--formProcessing.php-->
+			<fieldset>
+				<legend>Video Gaming Form</legend>
+				
+				<label for="gtag">Gamer Tag:</label><br>
+				<input type="text" id="gtag" name="name"><!-- Changed the name selector to the "name" property like you said to do. -->
+				<fieldset class="interFS">
+					<legend>Favorite ways to play games:</legend>
+					<input name="favPlay" id="favPlay" list="playType">
+					<datalist id="playType">
+						<option value="PC/Mac">
+						<option value="Console">
+						<option value="PC Handheld">
+						<option value="Gaming Handheld">
+						<option value="Mobile Emulation">
+						<option value="Mobile Games">
+					</datalist>
+				</fieldset>
+				
+				<label for="gameWhen">When do you prefer to play games?</label><br>
+					<select id="gameWhen" name="gameWhen">
+						<option value="choosetime">Choose a time of day</option>
+						<option value="morning">Mornings</option>
+						<option value="midday">Mid-day</option>
+						<option value="afternoon">Afternoons</option>
+						<option value="evening">Evenings</option>
+						<option value="latenight">Late at Night</option>
+					</select>
+
+				<fieldset class="interFS">
+					<legend>Favorite Zelda Game</legend>
+					<input type="radio" id="botw" name="favGame" value="BotW">
+					<label for="botw">Breath of the Wild</label><br>
+					<input type="radio" id="totk" name="favGame" value="TotK">
+					<label for="totk">Tears of the Kingdom</label><br>
+					<input type="radio" id="eow" name="favGame" value="EoW">
+					<label for="eow">Echoes of Wisdom</label><br>
+					<input type="radio" id="la" name="favGame" value="LA">
+					<label for="la">Link's Awakening HD</label><br>
+					<input type="radio" id="oot" name="favGame" value="OoT">
+					<label for="oot">Ocarina of Time</label><br>
+					<input type="radio" id="tp" name="favGame" value="TP">
+					<label for="tp">Twilight Princess HD</label><br>
+					<input type="radio" id="ss" name="favGame" value="SS">
+					<label for="ss">Skyward Sword HD</label>
+				</fieldset>
+				
+				<textarea name="message" rows="6" cols="60">Enter any video game comments here.</textarea> <!-- I also chose to use this as a message, instead of comments like I had the name set as before. -->
+				<br>
+				<input class="formBtn" type="submit" value="Submit">
+				<input class="formBtn" type="reset" value="Reset Form">
+			</fieldset>
+		</form>
+		
+		<!-- Added embedded video from my school YouTube channel for another class assignment. -->
+		
+		<div class="saturnVidText">
+			<p>This is a video I made for my Planetary Science class this week about Saturn. Saturn is also one of the planets we fight on in Warframe.</p>
+		</div>
+		
+		<div class="saturnVid">
+			<iframe width="560" height="315" src="https://www.youtube.com/embed/99-qyw4L-7s?si=5pp1BqdTz1q2t3Ht" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+		</div>
+		
+		<!-- Here is my javascript example, it's simple for now, but I will try and change it later on. -->
+		
+		<div class="jsBtn">
+			<button onclick="gaming()">Click me to support Gaming.</button>
+		</div>
+		
+		<!-- Alternate button with input to go to a game website. -->
+		<div class="jsBtnAlt">
+			<input class="btnURLText" type="text" placeholder="Enter a URL like http://Warframe.com">
+			<button class="btnURL">Open game site</button>
+		</div>
+		
+        <!-- I commented this out, since I'm running out of bandwith on my site server. -->
+		<!-- Original image from the top of the page, responsive to viewport changes and set to 800px wide. -->
+        <!-- <img class="xalbig" src="images/xalAviBustOG.jpg" alt="My avatar from the Final Fantasy 14 MMORPG." width="800"> -->
+		
+        <!-- Footer showing a background image of my dog from 2020. -->
+        <footer style="text-align:center; background-image: url(images/snoopySleep.jpg);">
+            <p><a href="#">Home</a> | <a href="#">About</a> | <a href="#">Services</a> | <a href="#">News</a> | <a href="#">Privacy Policy</a> | <a href="#">Contact</a></p>
+            <br><br><br>
+            <p>Copyright © - All rights reserved</p>
+        </footer>
+
+    </body>
+
+</html>
