@@ -14,5 +14,5 @@ window.onload = function() {
 		tableCode += '</tbody><tfoot><tr><td colspan="6">Source: https://www.warframe.com/game/warframes</td></tr></tfoot></table>';
 		
 		document.getElementById('tableWF').innerHTML = tableCode;
-	})
-}
+	});
+};
