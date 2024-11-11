@@ -1,6 +1,6 @@
 [
     {
-        "photo": "<img src='images/photo1.jpg'>",
+        "photo": "<img src='https://www-static.warframe.com/images/warframes/thumbnails/sarynprime.png'>",
 		"title": "Crime and Punishment",
         "author": "Fyodor Dostoevsky",
         "year": "1866",
@@ -8,7 +8,7 @@
 		"link": "<a href='https://www.yahoo.com/'>Yahoo.com</a>"
     },
     {
-        "photo": "<img src='images/photo1.jpg'>",
+        "photo": "<img src='https://www-static.warframe.com/images/warframes/thumbnails/khoraprime.png'>",
 		"title": "The Metamorphosis",
         "author": "Franz Kafka",
         "year": "1915",
@@ -16,7 +16,7 @@
 		"link": "<a href='https://www.yahoo.com/'>Yahoo.com</a>"
     },
     {
-        "photo": "<img src='images/photo1.jpg'>",
+        "photo": "<img src='https://www-static.warframe.com/images/warframes/thumbnails/emberprime.png'>",
 		"title": "The Stranger",
         "author": "Albert Camus",
         "year": "1946",
