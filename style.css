@@ -142,56 +142,73 @@ a:active {
 }
 
 /* Warframe Table CSS code. */
-/* === TABLE === */
+/* === TABLE CODE === */
 
+/* CSS code for the H2 above the Warframe Table. */
 .wft {
+	max-width: 55%;
+	margin: 5px auto;
+	border: 1px solid green;
+	font-family: Papyrus, "Brush Script MT", Monaco;
 	text-align: center;
 }
 
+/* CSS for the DIV containing a future table with JavaScript and JSON. */
 #tableWF {
-	border: 5px solid #dcf;
+	border: 5px solid darkgreen;
 	padding: 5px;
 	margin: auto;
+	text-align: center;
+	background: #BDF1BD;
 }
 
+/* CSS for the actual table here. */
 #tableWF table {
-	border: 1px solid #bbb; 
-	border-collapse: collapse;
+	border: 2px solid darkgreen;
+	/*border-collapse: collapse;*/
+	margin: auto;
  }
  
 #tableWF caption {
 	font-weight: bold;
-	color: #555;
+	color: purple;
+	font-size: 1.1rem;
 }
   
 #tableWF th {
-	background: #dbdbdb;
+	background: #DDCCDD;
 	padding: 5px 4px;
-	text-shadow: 1px 1px #fff;
-	border-right: 1px solid #c8c7c7;
-	color:#333;
+	text-shadow: 2px 2px #fff;
+	border-right: 1px solid purple;
+	color: purple;
+	font-size: 1.1rem;
 }
 
 #tableWF tr:nth-child(even) {
-	background: #ebebeb;
+	background: #DDCCDD;
 }
 
 #tableWF tr:nth-child(odd) {
-	background: #fff;
+	background: #BDF1BD;
 }
 
 #tableWF td { 
-	color: #747474;
+	color: #1385A1;
 	padding: 6px;
 	border-right: 1px solid #c8c7c7;
 	border-bottom: 1px solid #c8c7c7;
 }
 
+#tableWF img {
+    max-width: 100%;
+    height: auto;
+}
+
 #tableWF tfoot td{
-	background: #dbdbdb;
-	text-shadow: 1px 1px #fff;
-	color:#555;
-	font-size: .8em;
+	background: #DDCCDD;
+	text-shadow: 2px 2px #FFF;
+	color: purple;
+	font-size: .8rem;
 	font-style: italic;
 }
 /* End of Warframe Table code. */
