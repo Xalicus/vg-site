@@ -144,9 +144,14 @@ a:active {
 /* Warframe Table CSS code. */
 /* === TABLE === */
 
+.wft {
+	text-align: center;
+}
+
 #tableWF {
 	border: 5px solid #dcf;
 	padding: 5px;
+	margin: auto;
 }
 
 #tableWF table {
