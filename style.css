@@ -144,6 +144,11 @@ a:active {
 /* Warframe Table CSS code. */
 /* === TABLE === */
 
+#tableWF {
+	border: 5px solid #dcf;
+	padding: 5px;
+}
+
 #tableWF table {
 	border: 1px solid #bbb; 
 	border-collapse: collapse;
