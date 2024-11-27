@@ -2,7 +2,7 @@
 
 /* CSS code for the background color of the page. */
 body {
-    background-color: #b3adee;
+    background-color: #B3ADEE;
 }
 
 
@@ -10,12 +10,12 @@ body {
 nav.gameNav {
 	width: 90%;
 	margin: auto;
-	border: solid 4px #AB006B;
+	border: 4px solid #AB006B;
 	text-align: center;
 	background-color: #8F005A;
 }
 
-.gameNav ul {
+nav.gameNav ul {
 	margin: 0;
 	padding: 0;
 	display: flex;
@@ -23,7 +23,7 @@ nav.gameNav {
 	align-items: center;
 }
 
-.gameNav li {
+nav.gameNav li {
 	list-style-type: none;
 }
 
@@ -39,25 +39,25 @@ nav.gameNav a {
 nav.gameNav a:hover {
 	background-color: #BDF1BD;
 	color: #8F005A;
-	border: 2px solid #7009d2;
-	border-radius: 30%;
+	border: 2px solid #7009D2;
+	border-radius: 30px;
 }
 
 
 /* CSS code for the h1 tag, making it center aligned, font color purple with a normal weight and sans-serif font. */
 h1 {
     text-align: center;
-    color: #7009d2;
+    color: #7009D2;
     text-transform: uppercase;
     font-family: "Source Sans Pro", sans-serif;
     font-weight: normal;
-    border: 8px double #7009d2;
-    border-radius: 25%;
+    border: 8px double #7009D2;
+    border-radius: 25px;
 }
 
 /* CSS code for the h2 tag, making the background color violet, and a font of Papyrus. >.> */
 h2 {
-    background-color: #1dc733;
+    background-color: #1DC733;
     font-family: Papyrus, "Brush Script MT", Monaco;
 }
 
@@ -66,23 +66,23 @@ p {
     text-align: justify;
     text-align-last: center;
     background-color: #BDF1BD;
-    color: #7009d2;
+    color: #7009D2;
     text-indent: 5%;
 }
 
 /* CSS code to change the colors of links depending on their state. */
 a:link {
-    color: blue;
+    color: #0000FF;
 }
 a:visited {
     color: #8F005A;
 }
 a:hover {
-    color: violet;
-    background-color: #7009d2;
+    color: #EE82EE;
+    background-color: #7009D2;
 } 
 a:active {
-    color: yellow;
+    color: #FFFF00;
 }
 
 /* paragragh tag with class of indent, indenting the text by 10%. */
@@ -105,7 +105,7 @@ a:active {
 .xal-flip { 
     float: left;
     margin-right: 15px;
-    border: 4px dotted magenta;
+    border: 4px dotted #FF00FF;
     border-radius: 60% 15%;
 }
 
@@ -113,7 +113,7 @@ a:active {
 .xal-stare { 
     float: right;
     margin-left: 15px;
-    border: 8px dashed red;
+    border: 8px dashed #FF0000;
     border-radius: 50%;
 }
 
@@ -136,7 +136,7 @@ a:active {
 
 /* CSS code to change the text color and background colors when you hover over the list items. */
 .warframeUL li:hover {
-    color: #7009d2;
+    color: #7009D2;
     background-color: #BDF1BD;
     font-weight: bold;
 }
@@ -148,14 +148,14 @@ a:active {
 .wft {
 	max-width: 55%;
 	margin: 5px auto;
-	border: 1px solid green;
+	border: 1px solid #008000;
 	font-family: Papyrus, "Brush Script MT", Monaco;
 	text-align: center;
 }
 
 /* CSS for the DIV containing a future table with JavaScript and JSON. */
 #tableWF {
-	border: 5px solid darkgreen;
+	border: 5px solid #006400;
 	padding: 5px;
 	margin: auto;
 	text-align: center;
@@ -164,23 +164,23 @@ a:active {
 
 /* CSS for the actual table here. */
 #tableWF table {
-	border: 2px solid darkgreen;
+	border: 2px solid #006400;
 	/*border-collapse: collapse;*/
 	margin: auto;
  }
  
 #tableWF caption {
 	font-weight: bold;
-	color: purple;
+	color: #800080;
 	font-size: 1.1rem;
 }
   
 #tableWF th {
 	background: #DDCCDD;
 	padding: 5px 4px;
-	text-shadow: 2px 2px #fff;
-	border-right: 1px solid purple;
-	color: purple;
+	text-shadow: 2px 2px #FFF;
+	border-right: 1px solid #800080;
+	color: #800080;
 	font-size: 1.1rem;
 }
 
@@ -195,8 +195,8 @@ a:active {
 #tableWF td { 
 	color: #1385A1;
 	padding: 6px;
-	border-right: 1px solid #c8c7c7;
-	border-bottom: 1px solid #c8c7c7;
+	border-right: 1px solid #C8C7C7;
+	border-bottom: 1px solid #C8C7C7;
 }
 
 #tableWF img {
@@ -207,7 +207,7 @@ a:active {
 #tableWF tfoot td{
 	background: #DDCCDD;
 	text-shadow: 2px 2px #FFF;
-	color: purple;
+	color: #800080;
 	font-size: .8rem;
 	font-style: italic;
 }
@@ -218,14 +218,14 @@ a:active {
 .huntH2 {
 	max-width: 55%;
 	margin: 5px auto;
-	border: 1px solid green;
+	border: 1px solid #008000;
 	font-family: Papyrus, "Brush Script MT", Monaco;
 	text-align: center;
 }
 
 /* Table class code here. */
 .hunters, .hunters td {
-	border: 2px solid darkgreen;
+	border: 2px solid #006400;
 	margin: 10px;
 	padding: 5px;
 	font-family: Papyrus, "Brush Script MT", Monaco;
@@ -238,7 +238,7 @@ a:active {
 }
 
 .hunters thead {
-	color: purple;
+	color: #800080;
 	font-size: 1.1rem;
 }
 
@@ -246,15 +246,15 @@ a:active {
 	max-width: 100%;
 	padding: 5px 0px;
 	background-color: transparent;
-	color: black;
+	color: #000000;
 	text-align: center;
 	font-size: 1.1rem;
     text-indent: 0;
 }
 
 .hunters td:hover {
-	background-color: gold;
-	border: 2px dashed magenta;
+	background-color: #FFD700;
+	border: 2px dashed #FF00FF;
 }
 
 .hunters .rieveImg {
@@ -277,14 +277,14 @@ a:active {
 }
 
 .hunters a:link, .hunters a:visited {
-	color: darkgreen;
+	color: #006400;
 }
 .hunters a:hover {
-	color: magenta;
+	color: #FF00FF;
 	background-color: transparent;
 } 
 .hunters a:active {
-	color: yellow;
+	color: #FFFF00;
 }
 
 
@@ -315,7 +315,7 @@ a:active {
         'lozFooter lozFooter';
 		
     gap: 5px; /* Adds a 5px gutter between the content in the mobile grid. */
-    background-color: #0b0; /* Sets the background color to a medium green. */
+    background-color: #00BB00; /* Sets the background color to a medium green. */
     padding: 5px; /* Adds 5px of padding around the whole mobile grid. */
 }
 
@@ -331,7 +331,7 @@ a:active {
 .zeldaGames h2, h3 {
     background-color: transparent;
     font-family: Papyrus, "Brush Script MT", Monaco;
-    color: #1bac2f;
+    color: #1BAC2F;
     font-size: 1.7rem;
 }
 
@@ -343,7 +343,7 @@ a:active {
 	max-width: 100%;
 	padding: 5px;
 	background-color: transparent; /* Taking the background out from the previous content. */
-	color: #1385a1; /* Making the text in the divs a darker green color. */
+	color: #1385A1; /* Making the text in the divs a darker green color. */
     text-indent: 0; /* Taking out the indents for the paragraphs. */
 }
 
@@ -378,7 +378,7 @@ a:active {
 .lozHHdiv {
 	max-width: 60%;
 	margin: 5px auto;
-	border: 1px dashed green;
+	border: 1px dashed #008000;
 	background-color: #BDF1BD;
 	text-align: left;
 }
@@ -386,28 +386,28 @@ a:active {
 .lozHHdiv h3{
 	max-width: 85%;
 	margin: 5px auto;
-	border: 1px solid green;
+	border: 1px solid #008000;
 	font-family: Papyrus, "Brush Script MT", Monaco;
 	text-align: center;
 }
 
 
 .lozHHOL, .lozHHOL li {
-	color: red;
+	color: #FF0000;
     background-color: transparent;
     list-style-type: upper-alpha;
     /*text-align: left;*/
 }
 
 .lozHHUL, .lozHHUL li {
-	color: blue;
+	color: #0000FF;
     background-color: transparent;
     list-style-type: '-';
     text-align: left;
 }
 
 .lozHHOL li:hover {
-    color: magenta;
+    color: #FF00FF;
     background-color: transparent;
     font-weight: bold;
 }
@@ -417,7 +417,7 @@ a:active {
 form.gameForm {
 	max-width: 600px;
 	margin: 0 auto;
-	/*border: dashed 3px #AB006B;*/
+	/*border: 3px dashed #AB006B;*/
 	text-align: left;
 	background-color: #BDF1BD;
 }
@@ -432,7 +432,7 @@ fieldset.interFS {
 }
 
 .interFS label {
-    margin: 2;
+    margin: 2px;
     text-align: left;
 	justify-content: left;
 }
@@ -451,7 +451,7 @@ fieldset.interFS {
 	max-width: 100%;
 	padding: 5px;
 	background-color: #BDF1BD;
-	color: #1385a1;
+	color: #1385A1;
     text-indent: 0;
 	text-align: center;
 	font-size: 1.2rem;
